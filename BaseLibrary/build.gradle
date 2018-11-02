@@ -36,4 +36,7 @@ dependencies {
     // Anko Commons
     api "org.jetbrains.anko:anko-commons:$anko_version"
 
+    api "io.reactivex:rxkotlin:$rx_kotlin_version"
+    api "io.reactivex:rxandroid:$rx_android_version"
+
 }
