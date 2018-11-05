@@ -36,7 +36,14 @@ dependencies {
     // Anko Commons
     api "org.jetbrains.anko:anko-commons:$anko_version"
 
+    //rxkotlin and rxandroid
     api "io.reactivex:rxkotlin:$rx_kotlin_version"
     api "io.reactivex:rxandroid:$rx_android_version"
 
+    //retrofit
+    api "com.squareup.okhttp3:okhttp:${ok_http_version}"
+    api "com.squareup.retrofit2:retrofit:${retrofit_version}"
+    api "com.squareup.okhttp3:logging-interceptor:${ok_http_version}"
+    api "com.squareup.retrofit2:converter-gson:${retrofit_version}"
+    api "com.squareup.retrofit2:adapter-rxjava:${retrofit_version}"
 }
